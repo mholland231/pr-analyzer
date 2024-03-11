@@ -1,0 +1,23 @@
+{
+  "name": "pr-analyzer",
+  "version": "1.0.0",
+  "description": "a repo used to analyze pull requests on github repositories",
+  "main": "src/app.js",
+  "type": "module",
+  "module": "nodenext",
+  "scripts": {
+    "test": "node test",
+    "start": "tsc && node --env-file=.env dist/app.js"
+  },
+  "author": "mholland231",
+  "license": "ISC",
+  "dependencies": {
+    "nodeplotlib": "^1.1.2",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.23.6",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
